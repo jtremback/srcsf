@@ -1,0 +1,64 @@
+@import "compass";
+
+$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mono: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+html {
+  font-size: 16px;
+}
+
+.pagetainer {
+  margin-top: 10%;
+}
+
+.slashunit {
+  font-family: $mono;
+  font-size: 10em;
+  height: 3em;
+  float: left;
+}
+
+.name {
+  font-family: $mono;
+  font-size: 10em;
+
+
+}
+
+.tagline {
+  font-family: $sans;
+  font-size: 2.4em;
+}
+
+.iconlink {
+  font-family: $mono;
+  text-decoration: none;
+  cursor: pointer;
+  padding-left: 1.3em;
+  background-size: 1em 1em;
+  background-repeat: no-repeat;
+  background-position: left center;
+
+  &.twitter {
+    font-size: 2.4em;
+    float: left;
+    background-image: url("../images/twitter_med.png");
+  }
+}
+
+// .iconlink {
+//   .img {
+//     height: 1em;
+//     width: 1em;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: 100% 100%;
+//   }
+
+//   &.twitter {
+//     font-size: 2.4em;
+//     .img {
+//       background-image: url("../images/twitter_med.png");
+//     }
+//   }
+// }
